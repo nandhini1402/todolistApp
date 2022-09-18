@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+html, 
+body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  background-color: rgb(219, 227, 243);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  margin: 100px auto;
+  width: 500px;
+  min-height: 250px;
+  background-color: white;
+  border: 1px solid rgb(242, 240, 240);
+  border-radius: 10px;
+  box-shadow: 50px;
+  padding: 40px;
+  box-shadow: 5px 5px 20px 2px lightgray;
+}
+
+h1 {
+  color: rgb(100, 99, 99);
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 10px;
+}
+
+.userInput {
+  border: 2px solid lightgray;
+  border-radius: 10px;
+  height: 70px;
+  width: 320px;
+  font-size: 20px;
+  color: gray;
+  padding: 20px;
+  box-shadow: 3px 3px 20px 2px lightgray;
+  margin-right: 10px;
+}
+
+.createBtn {
+  border: 2px solid white;
+  border-radius: 10px;
+  height: 70px;
+  width: 140px;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(6, 88, 115);
+  cursor: pointer;
+}
+
+.creatBtn:hover {
+  background-color: rgb(9, 163, 109);
+}
+
+.creatBtn:active {
+  background-color: rgb(140, 5, 95);
+}
+
+.line {
+  margin-top: 30px;
+  height: 2px;
+  background-color: lightgray;
+  margin-bottom: 20px;
+}
+
+.todos {
+  display: flex;
+  flex-direction: column;
+}
+
+.todos > div,
+.todo__input {
+  display: flex;
+}
+
+.todos > div {
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.todos input {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.todos label {
+  font-size: 18px;
+}
+
+.todos input,
+.todos label {
+  cursor: pointer;
+}
