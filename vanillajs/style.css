@@ -56,11 +56,11 @@ h1 {
   cursor: pointer;
 }
 
-.creatBtn:hover {
+.createBtn:hover {
   background-color: rgb(9, 163, 109);
 }
 
-.creatBtn:active {
+.createBtn:active {
   background-color: rgb(140, 5, 95);
 }
 
